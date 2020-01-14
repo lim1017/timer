@@ -1,4 +1,5 @@
 let alarmTimes = process.argv.slice(2);
+
 const alarm = alarmTimes => {
   if (alarmTimes !== undefined) {
     for (const i of alarmTimes) {
